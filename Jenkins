@@ -1,6 +1,6 @@
 node {
     stage('SCM checkout') {
-        git 'https://github.com/Bhanalliarun/Kubernetespipeline.git'
+        git 'https://github.com/Bhanalliarun/k8sdemo.git'
     }
 
     stage('Mvn Package- Unit and Integration Test'){
